@@ -10,6 +10,11 @@ batchSize <- 10 #number of sessions in a batch
 numberOfBatches <- floor(numSessions/batchSize)
 lagNumber <- 4 #number of batches behind we are
 
+
+
+##ADDING THIS COMMENT:
+
+
 dataForAnalysis <- run_simulation(
     rates = rates,
     controlRate = controlRate,
