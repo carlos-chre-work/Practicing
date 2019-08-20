@@ -7,6 +7,12 @@ source("DOIsim.R")
 list.files("./doi-bandit-planner/functions", full.names = TRUE) %>% 
     purrr::walk(source)
 
+
+
+
+##adding comment
+
+
 tidy_sim_data <- tidy_cumulative_cost(dataForAnalysis)
 gg <- plot_cumulative_cost(tidy_sim_data) %>% 
     print()
